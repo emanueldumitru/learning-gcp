@@ -311,6 +311,30 @@ logo detection
 - automl vision
 
 
+Lab: Classifing images with of clouds in the cloud using AutoML Vision
+
+https://googlecoursera.qwiklabs.com/focuses/17495066?parent=lti_session
+
+
+- Cloud storage bucket of images
+- Vision AutoML
+
+For a production model make sure you have at least 100 images per class for a classification model
 
 
 
+Building a custom model in 3 ways
+- BigQuery ML
+- AutoML - AutoML Natural Language - text and label
+- write your own model using keras ( ML Engine - Notebooks) - jupyter notebook 
+
+run bigquery in jupyter notebook
+
+detect based on past headlines by New York Times, github, techcrunch new headlines
+by which site is posted --- text classification --
+label - predicted value
+features
+
+https://github.com/GoogleCloudPlatform/training-data-analyst
+
+!code - to execute commands in a jupyter notebook

@@ -103,7 +103,20 @@ low variance -> better generalization
 
 
 
+### Kernel methods ( non linear activation )
+Support vector machines 
 
+small margin, large margin 
+maximum likelihood, lower likelihood
+
+distance between support vectors is the margin
+
+data is not lineary separable -- apply kernels to transform the input
+space into a more feature space
+
+
+
+ 
 
 
 

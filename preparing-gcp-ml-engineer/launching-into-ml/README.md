@@ -87,6 +87,22 @@ https://googlecoursera.qwiklabs.com/focuses/17878101?parent=lti_session
 
 **LAB: Introduction to Logistic Regression**
 
+### Decision Trees
+
+Random forest
+Ensemble methods
+Subsample
+
+Boosting - aggregate multiple weak learners to produce a strong learner
+
+Majority vote
+
+low variance -> better generalization
+
+**LAB: creating decision trees and random forests in python**
+
+
+
 
 
 

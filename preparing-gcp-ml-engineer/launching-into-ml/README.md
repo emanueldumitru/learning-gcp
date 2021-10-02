@@ -115,7 +115,7 @@ data is not lineary separable -- apply kernels to transform the input
 space into a more feature space
 
 
-
+Deep learning - series of matrix multiplication and some nonlinear transformation
  
 
 

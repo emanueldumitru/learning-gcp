@@ -275,16 +275,101 @@ The more false negatives the less recall
 
 accuracy, precision, recall
 
+### Explore data and asses if your model is overfitting or not
+
+
+Assess if your model is overfitting
+Gauge when to stop model training
+Create repeatable training, evaluation and test datasets
+Establish performance benchmarks
+
+
+We want a model that performs great on unseen data, unknown data
+
+Generalization and ML Models
+
+Prediction of the duration of pregnancy base on mother's weigh gain -- regression problem
+
+Loss metrics
+
+mse 
+rmse
+
+the closer to 0 is our loss function, the better
+free parameter or hyperparameters
+
+rmse = 0? is model production ready or not ? :D
+memorizing dataset <-> overfitting <-> a invata mecanic
+
+
+Split the data to prevent the process of overfitting to take place, the model will have more changes to start generalize well
+compare performance on training and test dataset 
+
+
+When to stop model training?
+
+
+Start with a NN with one set of hyperparameters - > train model using training dataset
+-> increase model complexity ( hyperparameters ) -> is it overfitting?
+
+
+if it is not overfitting then stop fine tuning
+Use model with hyperparameters of last non-overfit model for prediction
+
+Cloud Machine Learning engine can help us with this
+
+Dataset
+- Experimental ( Training, Validation )
+- Test
+
+Evaluate the final model with cross-validation
+Avg validation loss -- bootstraping / cross-validation
+
+if you have lots of data -> use a held-out test dataset
+if you don't have lot of data -> use cross-validation
+
+
+Models that generalize well wil have similar loss metrics or error values across training and validation
+
+Sorting data can add some bias to it
+
+
+Split a dataset into training/validation/test using the hashing and modulo operators
+
+MOD(ABS(FARM_FINGERPRINT
+
+Develop your Tensorflow code on a small subset of data, then scale it out to the cloud
+
+
+
+70 millions of flight data, take only 1.5 % out of it and then split that data ( 800k )
+
+use a hash function instead of naive split in BigQuery -- this to split the data into training, validation and test dataset 
+
+Estimate taxi fare on NYC taxi 
+
+benchmark helps you set a goal for a good value for the error metric. 
+
+Explore / Create ML Datasets / Benchmark --- mandatory to do in any machine learning program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
-
-
-
-
-
-
-
-
-
-
 
 

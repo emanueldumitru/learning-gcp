@@ -91,4 +91,27 @@ GradientTape records operations for Automatic Differentiation
 
 
 
+### Design and build a tensorflow input data pipeline
+
+Parameters the values inside the values held by the model
+
+You can build with Tensorflow your own customer layers and models by extending / subclassed
+
+ResNet50 v1.5 on NVIDIA@ Tesla@V100s on Google Cloud 
+ResNet50 best model for image classification
+
+
+Training and Inference phase
+
+tf.data.API
+- build complex input pipelines from simple, reusable pieces
+- build pipelines for multiple data types
+- handle large amounts of data; perform complex transformations
+
+
+Creating a dataset from in-memory tensors
+
+from_tensors, from_tensors_slices - tensorflow can work with in-memory and with files
+
+
 

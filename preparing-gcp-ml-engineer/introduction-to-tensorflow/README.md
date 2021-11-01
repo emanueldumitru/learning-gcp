@@ -114,4 +114,8 @@ Creating a dataset from in-memory tensors
 from_tensors, from_tensors_slices - tensorflow can work with in-memory and with files
 
 
+bucketized_columns
+embedding_columns
+tf.data.Dataset
 
+feature columns

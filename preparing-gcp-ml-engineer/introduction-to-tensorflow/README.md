@@ -123,3 +123,7 @@ feature columns
 
 
 Tensorflow data validation and facets
+
+
+Training neural networks with Tensorflow and Keras Sequential API
+

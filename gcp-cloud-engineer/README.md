@@ -113,3 +113,28 @@ Google Cloud Storage services
 - Google cloud spanner - transactional consistency on horizontal - petabytes levels; shardding; global data - financial/inventory applications
 - Cloud datastore - structured data from app engine apps; horizontally scaling; sharding and replications; designed for application backends
 free daily quota for reads/writes and small operations at no charge
+
+
+vm example of startup script
+```
+apt-get update
+apt-get install apache2 php php-mysql -y
+service apache2 restart
+```
+
+10.128.0.2 internal
+34.133.134.167 external
+
+```
+export LOCATION=US
+
+gsutil mb -l $LOCATION gs://$DEVSHELL_PROJECT_ID
+
+gsutil cp gs://cloud-training/gcpfci/my-excellent-blog.png my-excellent-blog.png
+
+gsutil cp my-excellent-blog.png gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png
+
+gsutil acl ch -u allUsers:R gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png
+
+
+```

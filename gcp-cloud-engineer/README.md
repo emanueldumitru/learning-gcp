@@ -138,3 +138,29 @@ gsutil acl ch -u allUsers:R gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png
 
 
 ```
+
+Google Kubernetes Engine
+------------------------
+
+Iaas - Compute Engine
+PaaS - App Engine
+
+
+The nodes in the Kube engine clusters are vms, you can see them in the compute engine -> vm instances
+
+
+```
+export MY_ZONE=us-central1-a
+gcloud container clusters create webfrontend --zone $MY_ZONE --num-nodes 2
+kubectl version
+
+kubectl create deploy nginx --image=nginx:1.17.10
+kubectl get pods
+kubectl expose deployment nginx --port 80 --type LoadBalancer
+
+kubectl get services
+kubectl scale deployment nginx --replicas 3
+
+kubectl get pods
+kubectl get services
+```
